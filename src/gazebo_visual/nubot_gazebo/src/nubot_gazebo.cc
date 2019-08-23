@@ -730,7 +730,8 @@ void NubotGazebo::kick_ball(int mode, double vel=20.0)
 
 //        ROS_INFO("%s crosspoint:(%f %f) vx: %f", model_name_.c_str(),
 //                 crosspoint.x_, crosspoint.y_, vx);
-        if( fabs(crosspoint.y_) < 10)
+//         if( fabs(crosspoint.y_) < 10)
+        if(1)
         {
             math::Vector3 kick_vector;
             if(flip_cord_)
